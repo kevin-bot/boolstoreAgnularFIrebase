@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA1-O6D0Y5QyIlEBt4m1ScIGDaffknANgg",
+    authDomain: "bookstore-faca3.firebaseapp.com",
+    databaseURL: "https://bookstore-faca3.firebaseio.com",
+    projectId: "bookstore-faca3",
+    storageBucket: "bookstore-faca3.appspot.com",
+    messagingSenderId: "721104669792",
+    appId: "1:721104669792:web:802a12d267be2df3474705",
+    measurementId: "G-P5GPXQYY3K"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
